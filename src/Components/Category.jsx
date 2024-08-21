@@ -22,9 +22,9 @@ export default function Category() {
         //         console.log(error); // Handle errors
         //     } 
         // };
+        // fetchData(); // Call the async function
     
         //approach2
-        // fetchData(); // Call the async function
 
         fetch("http://localhost:5000/categories")
         .then(response => response.json()) // Parse the JSON from the response
