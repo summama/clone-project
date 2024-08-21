@@ -41,7 +41,7 @@ export default function TopRest() {
     }
     return (
     <>
-        <div className="mx-auto max-w-[1100px]  mb-24">
+        <div className="mx-auto max-w-[1100px]  ">
                 <div className="flex justify-between my-4">
                     <h1 className="text-lg font-bold"> Top Restaurant in Hyderabad </h1> 
                     <div className="flex gap-2">
@@ -60,6 +60,7 @@ export default function TopRest() {
                                 </div>
                     })}
                 </div>
+        <hr className="my-6 border-2 "/>
         </div>
     </>
     )

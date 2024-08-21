@@ -61,7 +61,7 @@ export default function Header() {
                 }}>
         </div>
         
-        <header className="p-4 shadow-xl ">
+        <header className="p-4 shadow-xl sticky top-0 z-50 bg-white">
                 <div className="mx-auto  max-w-6xl flex items-center gap-4" >
                     <img src="/images/logo.png" alt="memon pizza" className='w-[100px]'/>
                     <span className='text-lg'>
